@@ -1,0 +1,66 @@
+body{
+  margin: 0;
+  background-color: #0B2434;
+  padding: 40px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+div#root {
+  height: 100%;
+}
+.window{
+  background-color: #F5F5F5;
+  padding: 40px 40px 40px 40px;
+  border-style: solid;
+  border: 40px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;     
+  height: 100vh;
+  
+  
+}
+.die{
+  background-color: blueviolet;
+  padding-right:  30px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 50px;
+  border-radius: 10px;
+  font-size: 1.5rem;
+}
+.dieGreen{
+  background-color: rgb(43, 226, 43);
+  padding-right:  30px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 50px;
+  border-radius: 10px;
+  font-size: 1.5rem;
+}
+.window>div{
+  max-width: 700px;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-template-rows: repeat(5,1fr);
+  gap: 10px;
+  justify-self: center;
+  align-self: center;
+  max-height: 250px;
+}
+.window>button{
+padding-top : 20px ;
+padding-bottom: 20px;
+padding-left: 50px;
+padding-right :50px ;
+background-color: rgb(18, 18, 112);
+color: white;
+font-size: large;
+}
+
+
